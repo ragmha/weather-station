@@ -1,0 +1,22 @@
+{
+    "name": "weather-station",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ragmha/weather-station"
+    },
+    "version": "0.1.0",
+    "private":true,
+    "description": "Weather app that connects a device to Azure using Node.js",
+    "main": "weather.js",
+    "author": "Raghib Hasan",
+    "license": "MIT",
+    "dependencies": {
+      "azure-iot-device": "1.0.0",
+      "azure-iot-device-amqp": "1.0.0",
+      "azure-iot-device-amqp-ws": "1.0.0",
+      "azure-iot-device-http": "1.0.0",
+      "azure-iot-device-mqtt": "1.0.0",
+      "johnny-five": "0.9.19",
+      "j5-sparkfun-weather-shield": "0.2.0"
+    }
+  }
